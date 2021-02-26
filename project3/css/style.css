@@ -43,15 +43,17 @@ ul.navbar {
   background-color: #f0f0f000;
   opacity: 50;
 }
-
+ul.album {
+  text-align: justify;
+  width: 94%;
+}
  ul.album > li {
-    display: inline-block;
+    display: inline-flex;
     zoom:1;
     *display:inline;
     height: 810px;
 
     vertical-align: top;
-    justify-content: center;
 }
 
 .content {
@@ -112,9 +114,12 @@ figure.image > img {
  text-align: center;
  margin-top: 8px;
 }
-
+.row{
+  margin-left:10%;
+  justify-content: center;
+}
 .post{
-  width: 97%;
+  width: 87%;
   margin-left: auto;
   margin-right: auto;
 }
