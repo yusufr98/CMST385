@@ -8,6 +8,8 @@
 }
 #mainfooter{
   position: fixed;
+  text-align: left;
+  padding-left: 20px;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -42,7 +44,6 @@ ul.navbar {
   padding: 0;
   overflow: hidden;
   background-color: #f0f0f000;
-  opacity: 50;
 }
 ul.album {
   text-align: justify;
@@ -50,17 +51,12 @@ ul.album {
 }
  ul.album > li {
     display: inline-flex;
-    zoom:1;
-    *display:inline;
-    height: 810px;
-
+    height: 825px;
     vertical-align: top;
 }
 
 .content {
   width: auto;
-  padding-left: auto;
- padding-right: auto;
  justify-content: center;
 }
 ol > li {
@@ -93,9 +89,8 @@ li.nav a:hover {
  display: inline-block;
  background-color: white;
  margin: 10px;
- padding: 5px;
- border: 10px solid white;
-
+ padding: 20px;
+ padding-bottom: 30px;
  -moz-box-shadow: 0 0 5px #888;
  -webkit-box-shadow: 0 0 5px#888;
  box-shadow: 0 0 5px #888;
@@ -114,6 +109,7 @@ figure.image > img {
 .image span, .image figcaption {
  text-align: center;
  margin-top: 8px;
+ margin-bottom: 10px;
 }
 .row{
   margin-left:10%;
