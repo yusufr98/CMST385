@@ -27,7 +27,6 @@ ul.navbar{
   padding-left: 0;
 }
 li.nav{
-  float: center;
   display: inline;
 }
 li.nav a{
